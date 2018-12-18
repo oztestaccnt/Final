@@ -1,0 +1,96 @@
+﻿@model FormData.Controllers.ChartController.Ratio
+
+
+@{
+    ViewBag.Title = "GetData";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="~/Scripts/Charts/exporting.js"></script>
+<script src="~/Scripts/Charts/highcharts.js"></script>
+
+<div class="jumbotron">
+    <div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+</div>
+
+@section scripts
+{
+    
+    <script>
+
+
+        $(document).ready(function() {
+            //$.getJSON("~/Chart/GetData", function (data) {
+
+
+            // Create the chart
+            Highcharts.chart('container',
+                {
+                    chart: {
+                        plotBackgroundColor: null,
+                        plotBorderWidth: null,
+                        plotShadow: false,
+                        type: 'pie'
+                    },
+                    title: {
+                        text: 'Customers Location by Country'
+                    },
+                    tooltip: {
+                        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                    },
+                    plotOptions: {
+                        pie: {
+                            allowPointSelect: true,
+                            cursor: 'pointer',
+                            dataLabels: {
+                                enabled: true,
+                                format:
+                                      '<b>{point.name}</b>: {point.y:.0f}',
+                                   // '<b>{point.name}</b>: {point.percentage:.1f} %',
+                                style: {
+                                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                                }
+                            }
+                        }
+                    },
+                    series: [
+                        {
+                            name: 'Brands',
+                            colorByPoint: true,
+                            data: [
+                                {
+                                    name: 'Germany',
+                                    y: @Model.Germany
+                                }, {
+                                    name: 'USA',
+                                    y: @Model.USA
+                                }, {
+                                    name: 'Mexico',
+                                    y: @Model.Mexico
+                                },{
+                                    name: 'Argentina',
+                                    y: @Model.Argentina
+                                }, {
+                                    name: 'Austria',
+                                    y: @Model.Austria
+                                }, {
+                                    name: 'Brazil',
+                                    y: @Model.Brazil
+                                },{
+                                    name: 'UK',
+                                    y: @Model.UK
+                                }, {
+                                    name: 'France',
+                                    y: @Model.France
+                                }
+                            ]
+                        }
+                    ]
+                });
+        });
+    </script>
+}
+
+
+
+

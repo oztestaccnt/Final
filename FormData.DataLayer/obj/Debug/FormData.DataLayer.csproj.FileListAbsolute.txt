@@ -1,0 +1,48 @@
+E:\WCTC\Net Web Development 152-109-10098-19\Unit 03\Lesson 16\FormData.DataLayer\bin\Debug\FormData.DataLayer.dll.config
+E:\WCTC\Net Web Development 152-109-10098-19\Unit 03\Lesson 16\FormData.DataLayer\bin\Debug\FormData.DataLayer.dll
+E:\WCTC\Net Web Development 152-109-10098-19\Unit 03\Lesson 16\FormData.DataLayer\bin\Debug\FormData.DataLayer.pdb
+E:\WCTC\Net Web Development 152-109-10098-19\Unit 03\Lesson 16\FormData.DataLayer\bin\Debug\EntityFramework.dll
+E:\WCTC\Net Web Development 152-109-10098-19\Unit 03\Lesson 16\FormData.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\WCTC\Net Web Development 152-109-10098-19\Unit 03\Lesson 16\FormData.DataLayer\bin\Debug\EntityFramework.xml
+E:\WCTC\Net Web Development 152-109-10098-19\Unit 03\Lesson 16\FormData.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\WCTC\Net Web Development 152-109-10098-19\Unit 03\Lesson 16\FormData.DataLayer\obj\Debug\FormData.DataLayer.csproj.CoreCompileInputs.cache
+E:\WCTC\Net Web Development 152-109-10098-19\Unit 03\Lesson 16\FormData.DataLayer\obj\Debug\FormData.DataLayer.csproj.CopyComplete
+E:\WCTC\Net Web Development 152-109-10098-19\Unit 03\Lesson 16\FormData.DataLayer\obj\Debug\FormData.DataLayer.dll
+E:\WCTC\Net Web Development 152-109-10098-19\Unit 03\Lesson 16\FormData.DataLayer\obj\Debug\FormData.DataLayer.pdb
+E:\WCTC\Net Web Development 152-109-10098-19\Unit 03\Lesson 16\FormData.DataLayer\obj\Debug\FormData.DataLayer.csprojAssemblyReference.cache
+D:\WCTC\Net Web Development 152-109-10098-19\Unit 04\Lesson 20\FormData.DataLayer\bin\Debug\FormData.DataLayer.dll.config
+D:\WCTC\Net Web Development 152-109-10098-19\Unit 04\Lesson 20\FormData.DataLayer\bin\Debug\FormData.DataLayer.dll
+D:\WCTC\Net Web Development 152-109-10098-19\Unit 04\Lesson 20\FormData.DataLayer\bin\Debug\FormData.DataLayer.pdb
+D:\WCTC\Net Web Development 152-109-10098-19\Unit 04\Lesson 20\FormData.DataLayer\bin\Debug\EntityFramework.dll
+D:\WCTC\Net Web Development 152-109-10098-19\Unit 04\Lesson 20\FormData.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\WCTC\Net Web Development 152-109-10098-19\Unit 04\Lesson 20\FormData.DataLayer\bin\Debug\EntityFramework.xml
+D:\WCTC\Net Web Development 152-109-10098-19\Unit 04\Lesson 20\FormData.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\WCTC\Net Web Development 152-109-10098-19\Unit 04\Lesson 20\FormData.DataLayer\obj\Debug\FormData.DataLayer.csprojAssemblyReference.cache
+D:\WCTC\Net Web Development 152-109-10098-19\Unit 04\Lesson 20\FormData.DataLayer\obj\Debug\FormData.DataLayer.csproj.CoreCompileInputs.cache
+D:\WCTC\Net Web Development 152-109-10098-19\Unit 04\Lesson 20\FormData.DataLayer\obj\Debug\FormData.DataLayer.csproj.CopyComplete
+D:\WCTC\Net Web Development 152-109-10098-19\Unit 04\Lesson 20\FormData.DataLayer\obj\Debug\FormData.DataLayer.dll
+D:\WCTC\Net Web Development 152-109-10098-19\Unit 04\Lesson 20\FormData.DataLayer\obj\Debug\FormData.DataLayer.pdb
+C:\Users\oztes\Desktop\Projects\Lessons\Lesson 20_21\FormData.DataLayer\bin\Debug\FormData.DataLayer.dll.config
+C:\Users\oztes\Desktop\Projects\Lessons\Lesson 20_21\FormData.DataLayer\bin\Debug\FormData.DataLayer.dll
+C:\Users\oztes\Desktop\Projects\Lessons\Lesson 20_21\FormData.DataLayer\bin\Debug\FormData.DataLayer.pdb
+C:\Users\oztes\Desktop\Projects\Lessons\Lesson 20_21\FormData.DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\oztes\Desktop\Projects\Lessons\Lesson 20_21\FormData.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\oztes\Desktop\Projects\Lessons\Lesson 20_21\FormData.DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\oztes\Desktop\Projects\Lessons\Lesson 20_21\FormData.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\oztes\Desktop\Projects\Lessons\Lesson 20_21\FormData.DataLayer\obj\Debug\FormData.DataLayer.csprojAssemblyReference.cache
+C:\Users\oztes\Desktop\Projects\Lessons\Lesson 20_21\FormData.DataLayer\obj\Debug\FormData.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\oztes\Desktop\Projects\Lessons\Lesson 20_21\FormData.DataLayer\obj\Debug\FormData.DataLayer.csproj.CopyComplete
+C:\Users\oztes\Desktop\Projects\Lessons\Lesson 20_21\FormData.DataLayer\obj\Debug\FormData.DataLayer.dll
+C:\Users\oztes\Desktop\Projects\Lessons\Lesson 20_21\FormData.DataLayer\obj\Debug\FormData.DataLayer.pdb
+C:\Users\oztes\source\Repos\After MidTerm\Lesson 20_21\FormData.DataLayer\bin\Debug\FormData.DataLayer.dll.config
+C:\Users\oztes\source\Repos\After MidTerm\Lesson 20_21\FormData.DataLayer\bin\Debug\FormData.DataLayer.dll
+C:\Users\oztes\source\Repos\After MidTerm\Lesson 20_21\FormData.DataLayer\bin\Debug\FormData.DataLayer.pdb
+C:\Users\oztes\source\Repos\After MidTerm\Lesson 20_21\FormData.DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\oztes\source\Repos\After MidTerm\Lesson 20_21\FormData.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\oztes\source\Repos\After MidTerm\Lesson 20_21\FormData.DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\oztes\source\Repos\After MidTerm\Lesson 20_21\FormData.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\oztes\source\Repos\After MidTerm\Lesson 20_21\FormData.DataLayer\obj\Debug\FormData.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\oztes\source\Repos\After MidTerm\Lesson 20_21\FormData.DataLayer\obj\Debug\FormData.DataLayer.csproj.CopyComplete
+C:\Users\oztes\source\Repos\After MidTerm\Lesson 20_21\FormData.DataLayer\obj\Debug\FormData.DataLayer.dll
+C:\Users\oztes\source\Repos\After MidTerm\Lesson 20_21\FormData.DataLayer\obj\Debug\FormData.DataLayer.pdb
+C:\Users\oztes\source\Repos\After MidTerm\Lesson 20_21\FormData.DataLayer\obj\Debug\FormData.DataLayer.csprojAssemblyReference.cache

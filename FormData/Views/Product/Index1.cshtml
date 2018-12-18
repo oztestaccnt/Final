@@ -1,0 +1,143 @@
+﻿@model IEnumerable<FormData.DataLayer.Product>
+@using FormData.DataLayer;
+
+@{
+    ViewBag.Title = "Product";
+}
+
+<div id="alert-search" class="alert alert-info alert-dismissable fade in" style="position:fixed;">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <strong id="alert-search-msg">Your request produced @Model.Count() results</strong>
+</div>
+<table class="table table-hover table-responsive">
+    <thead>
+    <tr class="font-md">
+        <th>@ViewBag.Filter</th>
+        <th class="text-right">Price</th>
+        <th class="text-right">Stock</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (Product p in Model)
+    {
+        <tr class="product-row" id="@p.ProductID">
+            <td>@p.ProductName (@p.QuantityPerUnit)</td>
+            <td class="text-right">@string.Format("{0:c}", p.UnitPrice)</td>
+            <td class="text-right">@p.UnitsInStock</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<div class="font-md">
+    <a href="@Url.Action("Index","Category")"><i class="glyphicon glyphicon-list"></i> Product Categories</a>
+</div>
+
+
+@section scripts
+{
+    <script>
+        $(function () {
+            showModelCount(@Model.Count())
+            $('#up, #down').click(function () {
+                var minPrice = parseInt($('#minPrice').html()) + parseInt($(this).data("val"));
+                if (minPrice >= 0 && minPrice <= 100) {
+                    $('#minPrice').html(minPrice);
+                    //ajax call
+                    var url = "@Url.Content("~")product/filterproducts/?PriceFilter=" + minPrice
+                    $.getJSON(url)
+                        .always(function(data, textStatus, statusObject ) {
+                            if (statusObject.status == 200) {
+                                console.log("response code: " + statusObject.status);
+                                console.log(data);
+
+                            } else {
+                                console.log("response code: " + data.status);
+                                console.log("response : " + data.textStatus);
+                            }
+
+
+                        });
+
+                }
+            });
+
+            $('.product-row').click(function() {
+                alert(this.id);
+            });
+            //setTimeout(function () { $('.alert').fadeOut(); }, 3000);
+
+            function showModelCount(modelCount) {
+                $('#modelCountDisplay').html(modelCount + " products");
+            }
+        });
+    </script>
+
+
+
+@*@section scripts
+{
+    <script>
+        $(function () {
+            $('.product-row').click(function () {
+                alert(this.id);
+            });
+            setTimeout(function () { $('.alert').fadeOut(); }, 3000);
+        });
+    </script>*@
+    
+@model IEnumerable<FormData.DataLayer.Product>
+@using FormData.DataLayer;
+
+@{
+    ViewBag.Title = "Product";
+}
+
+@*<div id="alert-search" class="alert alert-info alert-dismissable fade in" style="position:fixed;">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <strong id="alert-search-msg">Your request produced @Model.Count() results</strong>
+    </div>*@
+<table class="table table-hover table-responsive">
+    <thead>
+        <tr class="font-md">
+            <th>@ViewBag.Filter</th>
+            <th class="text-right">Price</th>
+            <th class="text-right">Stock</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Product p in Model)
+        {
+            <tr class="product-row" id="@p.ProductID">
+                <td>@p.ProductName (@p.QuantityPerUnit)</td>
+                <td class="text-right">@string.Format("{0:c}", p.UnitPrice)</td>
+                <td class="text-right">@p.UnitsInStock</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="font-md">
+    <a href="@Url.Action("Index","Category")"><i class="glyphicon glyphicon-list"></i> Product Categories</a>
+</div>
+
+<!-- Footer -->
+<nav id="nav-footer" class="navbar-default navbar-fixed-bottom">
+    <div class="container font-md">
+        Minimum Price: $<span id="minPrice">0</span>
+        <a id="down" data-val="-5"><i class="glyphicon glyphicon-chevron-down"></i></a>
+        <a id="up" data-val="5"><i class="glyphicon glyphicon-chevron-up"></i></a>
+        <div id="modelCountDisplay" class="pull-right">
+            0 products
+        </div>
+    </div>
+</nav>
+    
+    
+
+
+}

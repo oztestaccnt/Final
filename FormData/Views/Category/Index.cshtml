@@ -1,0 +1,19 @@
+﻿@model IEnumerable<FormData.DataLayer.Category>
+@using FormData.DataLayer;
+
+@{
+    ViewBag.Title = "Category";
+}
+
+<h2>Categories</h2>
+
+There are @Model.Count() categories
+
+
+<ul>
+    @foreach (var p in Model)
+    {
+        <li><a href="/categories/@p.CategoryID/products">@p.CategoryName</a></li>
+    }
+</ul>
+

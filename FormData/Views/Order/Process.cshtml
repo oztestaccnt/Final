@@ -1,0 +1,20 @@
+﻿@using FormData.Models
+@model IEnumerable<FormData.Models.Order>
+
+@{
+    ViewBag.Title = "ProcessOrder";
+    double total = 0;
+}
+
+<h2>ProcessOrder</h2>
+
+<ul>
+    @foreach (Order o in Model)
+    {
+        <li>@string.Format("{0} - {1}", o.Prod.Name, o.Qty)</li>
+        total += o.Prod.Price * o.Qty;
+    }
+</ul>
+<h3>
+    Order Total: @total.ToString("C")
+</h3>
